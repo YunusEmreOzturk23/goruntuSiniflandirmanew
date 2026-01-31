@@ -1,0 +1,109 @@
+C:\Users\oztur\PycharmProjects\goruntuSiniflandirmanew\.venv\Scripts\python.exe C:\Users\oztur\PycharmProjects\goruntuSiniflandirmanew\main.py 
+2026-01-31 16:45:31.198078: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-01-31 16:45:38.004868: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Found 2301 images belonging to 10 classes.
+Found 1025 images belonging to 10 classes.
+
+==============================
+Model: Filter=3 | Optimizer=adam
+==============================
+C:\Users\oztur\PycharmProjects\goruntuSiniflandirmanew\.venv\lib\site-packages\keras\src\layers\convolutional\base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2026-01-31 16:45:41.299635: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 109s 1s/step - accuracy: 0.1412 - loss: 3.6245 - val_accuracy: 0.1180 - val_loss: 2.2672
+Epoch 2/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 79s 1s/step - accuracy: 0.1773 - loss: 2.0932 - val_accuracy: 0.1220 - val_loss: 2.3799
+Epoch 3/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 83s 1s/step - accuracy: 0.1973 - loss: 2.0639 - val_accuracy: 0.1278 - val_loss: 2.2599
+Epoch 4/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 75s 1s/step - accuracy: 0.1990 - loss: 2.0512 - val_accuracy: 0.1307 - val_loss: 2.0860
+Epoch 5/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 74s 1s/step - accuracy: 0.2043 - loss: 1.9993 - val_accuracy: 0.2361 - val_loss: 1.9461
+Epoch 6/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 75s 1s/step - accuracy: 0.2256 - loss: 1.9695 - val_accuracy: 0.2498 - val_loss: 1.9559
+Epoch 7/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 61s 841ms/step - accuracy: 0.2486 - loss: 1.9286 - val_accuracy: 0.3054 - val_loss: 1.7099
+Epoch 8/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 60s 830ms/step - accuracy: 0.2377 - loss: 2.0020 - val_accuracy: 0.3629 - val_loss: 1.7425
+Epoch 9/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 61s 847ms/step - accuracy: 0.2438 - loss: 1.9392 - val_accuracy: 0.2634 - val_loss: 1.8378
+Epoch 10/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 61s 841ms/step - accuracy: 0.2647 - loss: 1.9234 - val_accuracy: 0.3073 - val_loss: 1.7161
+
+==============================
+Model: Filter=5 | Optimizer=adam
+==============================
+C:\Users\oztur\PycharmProjects\goruntuSiniflandirmanew\.venv\lib\site-packages\keras\src\layers\convolutional\base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+Epoch 1/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 103s 1s/step - accuracy: 0.1065 - loss: 3.5996 - val_accuracy: 0.1044 - val_loss: 2.3019
+Epoch 2/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 85s 1s/step - accuracy: 0.0991 - loss: 2.2986 - val_accuracy: 0.1015 - val_loss: 2.3023
+Epoch 3/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 81s 1s/step - accuracy: 0.0991 - loss: 2.3028 - val_accuracy: 0.1024 - val_loss: 2.3024
+Epoch 4/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 78s 1s/step - accuracy: 0.0856 - loss: 2.3028 - val_accuracy: 0.1024 - val_loss: 2.3024
+Epoch 5/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 75s 1s/step - accuracy: 0.0904 - loss: 2.3028 - val_accuracy: 0.1024 - val_loss: 2.3025
+Epoch 6/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 74s 1s/step - accuracy: 0.0904 - loss: 2.3028 - val_accuracy: 0.1024 - val_loss: 2.3025
+Epoch 7/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 102s 1s/step - accuracy: 0.1000 - loss: 2.3028 - val_accuracy: 0.1024 - val_loss: 2.3025
+Epoch 8/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 114s 1s/step - accuracy: 0.0817 - loss: 2.3031 - val_accuracy: 0.1024 - val_loss: 2.3025
+Epoch 9/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 74s 1s/step - accuracy: 0.0947 - loss: 2.3027 - val_accuracy: 0.1024 - val_loss: 2.3025
+Epoch 10/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 68s 944ms/step - accuracy: 0.0930 - loss: 2.3027 - val_accuracy: 0.1024 - val_loss: 2.3025
+
+==============================
+Model: Filter=3 | Optimizer=sgd
+==============================
+Epoch 1/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 46s 602ms/step - accuracy: 0.0982 - loss: 2.6887 - val_accuracy: 0.1024 - val_loss: 2.3029
+Epoch 2/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 43s 594ms/step - accuracy: 0.0882 - loss: 2.3036 - val_accuracy: 0.1024 - val_loss: 2.3026
+Epoch 3/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 43s 590ms/step - accuracy: 0.0939 - loss: 2.3034 - val_accuracy: 0.1024 - val_loss: 2.3028
+Epoch 4/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 43s 593ms/step - accuracy: 0.0830 - loss: 2.3037 - val_accuracy: 0.1024 - val_loss: 2.3027
+Epoch 5/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 43s 594ms/step - accuracy: 0.0878 - loss: 2.3035 - val_accuracy: 0.1024 - val_loss: 2.3025
+Epoch 6/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 41s 573ms/step - accuracy: 0.0860 - loss: 2.3037 - val_accuracy: 0.1024 - val_loss: 2.3026
+Epoch 7/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 42s 583ms/step - accuracy: 0.0891 - loss: 2.3035 - val_accuracy: 0.1024 - val_loss: 2.3025
+Epoch 8/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 42s 581ms/step - accuracy: 0.0847 - loss: 2.3037 - val_accuracy: 0.1024 - val_loss: 2.3025
+Epoch 9/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 45s 622ms/step - accuracy: 0.0956 - loss: 2.3037 - val_accuracy: 0.1005 - val_loss: 2.3028
+Epoch 10/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 43s 600ms/step - accuracy: 0.0843 - loss: 2.3037 - val_accuracy: 0.0946 - val_loss: 2.3028
+
+==============================
+Model: Filter=3 | Optimizer=rmsprop
+==============================
+Epoch 1/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 48s 610ms/step - accuracy: 0.1456 - loss: 5.1115 - val_accuracy: 0.1024 - val_loss: 2.4054
+Epoch 2/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 60s 827ms/step - accuracy: 0.1569 - loss: 2.2513 - val_accuracy: 0.1171 - val_loss: 2.2208
+Epoch 3/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 53s 692ms/step - accuracy: 0.1964 - loss: 2.1349 - val_accuracy: 0.1395 - val_loss: 2.2487
+Epoch 4/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 58s 761ms/step - accuracy: 0.2025 - loss: 2.0895 - val_accuracy: 0.1873 - val_loss: 2.1138
+Epoch 5/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 55s 762ms/step - accuracy: 0.2295 - loss: 1.9901 - val_accuracy: 0.1990 - val_loss: 1.9965
+Epoch 6/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 54s 756ms/step - accuracy: 0.2277 - loss: 1.9771 - val_accuracy: 0.2556 - val_loss: 1.7941
+Epoch 7/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 51s 707ms/step - accuracy: 0.2412 - loss: 1.9567 - val_accuracy: 0.3180 - val_loss: 1.7191
+Epoch 8/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 57s 751ms/step - accuracy: 0.2625 - loss: 1.9340 - val_accuracy: 0.2868 - val_loss: 1.7140
+Epoch 9/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 50s 693ms/step - accuracy: 0.2768 - loss: 1.8848 - val_accuracy: 0.3346 - val_loss: 1.9175
+Epoch 10/10
+72/72 ━━━━━━━━━━━━━━━━━━━━ 61s 810ms/step - accuracy: 0.2903 - loss: 1.8964 - val_accuracy: 0.3434 - val_loss: 1.7935
+
+Process finished with exit code 0
